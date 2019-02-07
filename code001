@@ -1,1 +1,11 @@
 #include <iostream>
+int main()
+{
+    int i,j, sum1;
+    i = 0, j = 0,sum1 = 0;
+    std::cout << "Enter two numbers:" << std::endl;
+    std::cin >> i >> j ;
+    sum1 = i + j ;
+    std::cout << "sum of " << i << " and " << j << " is " << sum1 << std::endl;
+    return 0;
+}
